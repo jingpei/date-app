@@ -1,6 +1,6 @@
 var tags = require('./tags');
 
-tags.createConstraint(function(err, results) {
+tags.seedTags(function(err, results) {
 	if (err) {
     console.log("There was an error seeding tags in the DB.", err);
   } else {
