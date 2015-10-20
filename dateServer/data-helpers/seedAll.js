@@ -15,4 +15,4 @@ events.seedEvents(function(err, results) {
   } else {
     console.log("The events got seeded!");
   }
-})
+});
